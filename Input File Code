@@ -1,0 +1,27 @@
+Input
+Source: https://www.w3schools.com/jsref/dom_obj_search.asp
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>A Rocha Field Guide</h3>
+
+<input type="search" id="mySearch" placeholder="Search for something..">
+
+<p>What interesting Thing did you find today?.</p>
+
+<button onclick="myFunction()">Search</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySearch").placeholder;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
